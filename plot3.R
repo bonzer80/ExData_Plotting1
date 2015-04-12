@@ -16,4 +16,3 @@ legend('topright',c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lwd=1,
        col=c("Black","Red","Blue"))
 
 dev.off ()
-
