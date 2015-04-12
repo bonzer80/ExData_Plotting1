@@ -3,7 +3,7 @@
 #Source the data from read_data.R
 source('read_data.R')
 
-getwd()#Plot data and output it to file
+#Plot data and output it to file
 
 plot(as.POSIXct(dataforuse[,"DateTime"]), dataforuse[,"Global_active_power"], type="l", 
         xlab="", ylab="Global Active Power (kilowatts)")
